@@ -1,0 +1,52 @@
+body{
+    background-color: #0a0a0a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12pt;
+}
+h1{
+    color: #000000;
+    border-bottom: solid 3px purple;
+    margin: 1%;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 50pt;
+    justify-content: first baseline;
+    background: linear-gradient(#0195f3, #8000ff) ;
+    border-radius: 12pt;
+} 
+img#logo {
+    height: 100pt;
+    width: 100pt;
+    border-bottom: solid 5px #03d7fc;
+}
+h2{
+    color: whitesmoke;
+}
+div {
+    display: flex;
+    overflow-x: auto;
+    gap: 12px;
+}
+section {
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #3d007a;
+    border-radius: 12px;
+}
+.video {
+    width: 490px;
+    height: 245px;
+    border-radius: 25px;
+    opacity: 0.75;
+    margin-bottom: 10px;
+}
+.video:hover {
+    opacity: 1.0;
+    border: 5px solid blue;
+    margin-bottom: 5px;
+}
+img#music {
+    border-radius: 100pt;
+    width: 150pt;
+    height: 150pt;
+    border: 3pt solid #310564;
+}
